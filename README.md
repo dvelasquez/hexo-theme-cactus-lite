@@ -6,6 +6,10 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 
 ![screenshot](https://docs.google.com/uc?id=1K66bccwr4z9TgJev0AzCqbI7BxzVr7md)
 
+The only difference with the original one, is the removal of the default font (Meslo Font), which alone  has a size of +400kb.
+
+I'm planning also to remove jQuery in a near future.
+
 ## Summary
 
 - [General](#general)
@@ -37,14 +41,14 @@ A responsive, clean and simple [Hexo](http://hexo.io) theme for a personal websi
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/probberechts/hexo-theme-cactus.git themes/cactus
+    $ git clone https://github.com/dvelasquez/hexo-theme-cactus-lite.git themes/cactus-lite
     ```
 
 2. Change the `theme` property in the `config.yml` file.
 
     ```yml
     # theme: landscape
-    theme: cactus
+    theme: cactus-lite
     ```
     See below for more information on how to customize this theme.
     
